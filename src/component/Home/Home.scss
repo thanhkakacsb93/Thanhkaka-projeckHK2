@@ -1,0 +1,26 @@
+.boxHome{
+    display: grid;
+    grid-template-columns:repeat(4,1fr) ;
+    gap: 20px;
+    padding: 20px;
+    // width: 100%;
+}
+.card {
+    padding: 0px !important;
+    background-color: red;
+  }
+.card-img{
+    height: 10%;
+    background-color: aqua;
+    & img{
+        width: 100%;
+        &::before{
+            content:"\2665";
+            
+        }
+    }
+}
+.imgcard{
+    height: 50% !important;
+    background-color: aqua;
+}
